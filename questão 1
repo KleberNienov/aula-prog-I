@@ -1,0 +1,6 @@
+def resto(p1,p2):
+    resto = p1 % p2
+    print(f'O resto da sua divisão é {resto}')
+p1 = int(input("Digite um número:"))
+p2 = int(input("Digite un número:"))
+resto(p1,p2)
